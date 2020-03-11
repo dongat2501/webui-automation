@@ -110,8 +110,9 @@
     <div id="contenttop">
         <div class="middlebg">
         <span class="breadcrumbs"><a href="index.html">Home</a>
+                > Story 
                 > <span
-                    class="truncate-60">Pending Tests</span>
+                    class="truncate-60">Search By Keyword Story (Passing Tests)</span>
         </span>
         </div>
         <div class="rightbg"></div>
@@ -146,23 +147,20 @@
         <div class="middlb">
             <div class="table">
 
-                <h2>Pending Tests</h2>
+                <h2><i class='fa fa-tags'></i> Story: Search By Keyword Story (Passing Tests)</h2>
                 <table class='overview'>
                     <tr>
                         <td width="375px" valign="top">
                             <div class="test-count-summary">
                                 <div>
 
-                                1 pending test
-                                    across 1 scenario
+                                2 passing tests
+                                    across 2 scenarios
 
                                      |
-                                        <a href="bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" title="Download CSV"> <i class="fa fa-download"
+                                        <a href="ed698e91be735fc68ecae22a3fe1d08d030bfc79e2163d0244912526d2e9fa12.csv" title="Download CSV"> <i class="fa fa-download"
                                                                                         title="Download CSV"></i></a>
 
-                                    <p class="report-info"><i class="fas fa-info-circle"></i> Note that results include
-                                        data-driven scenarios containing pending test ,
-                                        which may also contain results other than pending test .</p>
 
 
 
@@ -193,10 +191,10 @@
                                                             </div>
                                                             <script>
 
-                                                                var labels = [' ', ' ', '100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+                                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
                                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 1}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                                var series = [{meta: 'Passing tests (automated)', value: 2}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                                 // as you saw in the previous example
@@ -249,19 +247,19 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
+                                                                    <td class="aggregate-result-count">
+                                                                        <a href="b9cf3798ebb319c5cbf16dbe55118cf838015fed2e83373da26a53dd5322223d.html"><i
+                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
+                                                                    </td>
+                                                                <td class="automated-stats">2</td>
+                                                                <td class="automated-stats">100%</td>
+                                                            </tr>
+                                                            <tr>
                                                                     <td class="aggregate-result-count"><i
-                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
+                                                                            class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending
                                                                     </td>
                                                                 <td class="automated-stats">0</td>
                                                                 <td class="automated-stats"> </td>
-                                                            </tr>
-                                                            <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html"><i
-                                                                                class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending</a>
-                                                                    </td>
-                                                                <td class="automated-stats">1</td>
-                                                                <td class="automated-stats">100%</td>
                                                             </tr>
                                                             <tr>
                                                                 <td class="aggregate-result-count"><i
@@ -306,7 +304,7 @@
                                                             </tr>
                                                             <tr class="summary-stats">
                                                                 <td class="aggregate-result-count">Total</td>
-                                                                <td class="automated-stats">1</td>
+                                                                <td class="automated-stats">2</td>
                                                                 <td class="automated-stats"></td>
                                                             </tr>
                                                             </tbody>
@@ -335,18 +333,31 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr class="scenario-result PENDING">
+                                                <tr class="scenario-result SUCCESS">
                                                     <td>
                                                             <a href="48ca8ecc3593f5329f4f4fa794412fd67ad508954442c9e7f9641196eea42a4e.html">Search by keyword story</a>
                                                     </td>
                                                     <td>
-                                                        <a href="1d0007a161b728bd15f26f37b47b115704665dc6767d8a77ca1332a9cf935026.html">Searching by ambiguious keyword should display the disambiguation page</a>
+                                                        <a href="0d24b792207bfbfd7b75de9ea2aa7a8a758430372ccba050d34684b99443055f.html">Searching by keyword banana should display the corresponding article</a>
                                                     </td>
-                                                    <td>0</td>
-                                                    <td>21:28:38</td>
-                                                    <td>00:00</td>
-                                                    <td><a href='##beforetable'><i class='far fa-stop-circle pending-icon ' title='PENDING'></i></a> <span
-                                                            style="display:none">PENDING</span></td>
+                                                    <td>3</td>
+                                                    <td>21:28:22</td>
+                                                    <td>00:15</td>
+                                                    <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                            style="display:none">SUCCESS</span></td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="48ca8ecc3593f5329f4f4fa794412fd67ad508954442c9e7f9641196eea42a4e.html">Search by keyword story</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="d4552efc7cd9deb9550931eb92797db5b33cc1850801e1b6a949a53dc3ad4252.html">Searching by keyword apple should display the corresponding article</a>
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>21:28:39</td>
+                                                    <td>00:05</td>
+                                                    <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                            style="display:none">SUCCESS</span></td>
                                                 </tr>
                                                 </tbody>
                                             </table>
