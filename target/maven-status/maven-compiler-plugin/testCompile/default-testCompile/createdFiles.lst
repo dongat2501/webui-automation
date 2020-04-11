@@ -1,4 +1,8 @@
-vn\amabuy\steps\serenity\EndUserSteps.class
-vn\amabuy\features\search\package-info.class
-vn\amabuy\pages\DictionaryPage.class
-vn\amabuy\functions\searching\SearchByKeywordStory.class
+vn\amabuy\steps\serenity\LoginSteps.class
+vn\amabuy\steps\serenity\RegisterSteps.class
+vn\amabuy\features\browser\WhenOpeningTheWeb.class
+vn\amabuy\pages\HomePage.class
+vn\amabuy\features\register\WhenRegisterNewAccount.class
+vn\amabuy\pages\RegisterPage.class
+vn\amabuy\pages\LoginPage.class
+vn\amabuy\steps\serenity\HomeSteps.class

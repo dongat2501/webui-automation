@@ -1,4 +1,8 @@
-C:\Autotest\webui-automation\src\test\java\vn\amabuy\features\search\package-info.java
-C:\Autotest\webui-automation\src\test\java\vn\amabuy\functions\searching\SearchByKeywordStory.java
-C:\Autotest\webui-automation\src\test\java\vn\amabuy\steps\serenity\EndUserSteps.java
-C:\Autotest\webui-automation\src\test\java\vn\amabuy\pages\DictionaryPage.java
+C:\Autotest\webui-automation\src\test\java\vn\amabuy\features\browser\WhenOpeningTheWeb.java
+C:\Autotest\webui-automation\src\test\java\vn\amabuy\steps\serenity\HomeSteps.java
+C:\Autotest\webui-automation\src\test\java\vn\amabuy\steps\serenity\LoginSteps.java
+C:\Autotest\webui-automation\src\test\java\vn\amabuy\steps\serenity\RegisterSteps.java
+C:\Autotest\webui-automation\src\test\java\vn\amabuy\pages\RegisterPage.java
+C:\Autotest\webui-automation\src\test\java\vn\amabuy\features\register\WhenRegisterNewAccount.java
+C:\Autotest\webui-automation\src\test\java\vn\amabuy\pages\LoginPage.java
+C:\Autotest\webui-automation\src\test\java\vn\amabuy\pages\HomePage.java
